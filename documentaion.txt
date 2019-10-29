@@ -1,0 +1,31 @@
+INTRO
+
+There is a big influence of technology on our daily life. Electronic devices, multimedia and computers are the things we have to deal with everyday. Especially the Internet is becoming more and more important for nearly everybody as it is one of the newest and most forward-looking media and surely the medium of the future.
+
+It is naturally engaging and, in an age of information overload, it's vital for small businesses to offer content that is easy to digest; if not, consumers will simply move on. Video does this very well. If a picture paints 1,000 words then one minute of video is worth 1.8 million, so say Forrester's researchers. With online video quickly becoming a key means for people to satisfy their information and entertainment needs.
+Streaming video is content sent in compressed form over the Internet and displayed by the viewer in real time. With streaming video or streaming media, a Web user does not have to wait to download a file to play it. Instead, the media is sent in a continuous stream of data and is played as it arrives.
+
+This project is based online Video Streaming The motive of the project is to provide the facilities to watch online videos free of cost. Not only the users can view the videos they can also share them with others, infact they can register themselves which provides them extra benifit to download and upload videos with multiple supported subtitles, trim and create custom videos, create custom thumbnail for there videos and download the audio and video separately. User can download video without need to install any plugin/ extension/ or third party app.
+
+
+
+problem statement!
+
+It is now common that we can see TV programs and movies with our cell phones. Increasing number of them are now equipped with web accessible ability. Processing ability of recent cell phones is now similar to that of PC several years ago and they can playmultimedia files through web access. It is a big merit that mobilecell phone can play multimedia files made for PC. However, the problem is that plenty of the files are not directly usable for cell phones. Large-sized non-stream format files are difficult to be played in cell phones with limited storage. Even though recent cell phones contain large storage than old ones but they are also limited to few gigs, video file size is
+also increasing beyond the capacity of cell phones.In addition, even if cell phones have enough storage tosave large video files, they still have the limited resource environment: low processing ability and small viewsize. Since most recent video files are formatted by advanced codec with wide view size configuration, cellphones are unable to play the quality that is expected to be shown. Playing high-quality video files for PCin the low-quality environment of a cell phone is inefficient and resource-wasteful. Streaming service can bethe solution of the two problems. However, present streaming services also have limits. Most of them are
+for subscribed customers and contents are limited. Moreover, they support little dynamic controls over thestream, which are very natural for non-stream format files. In cell phones dynamic control functions aremore important due to their resource and power constrains than those of PCs. Since computer performanceand network speed has greatly enhanced, we can utilize a third party file-converting server for customized and manageable streaming services for cell phones.
+
+
+goal
+
+1. Since cell phones do not have sufficient storage to save large-sized non-stream format video files, URLs
+of the video files are redirected to a third-party server and cell phones get streaming services from the
+server.
+2. Since plenty of video files in the Internet are formatted for PCs and each cell phone has different
+compatability, the server customizes the streaming file through optimizing process; it prevents waste of
+resources in cell phones to play streaming videos.
+3. By making the client and the server have seeking functionality of a streaming data, cell phones can
+control the stream dynamically without downloading the video.
+4.
+
+

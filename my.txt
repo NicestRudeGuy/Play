@@ -1,0 +1,15 @@
+ffmpeg -i sample.mkv  -listen 1 -f mpeg http://localhost:8080
+
+ffmpeg -re -i sample.mkv -f mpeg udp://localhost:8080
+
+ffplay -i udp:localhost:8080
+
+or
+
+ffmpeg -re -i sample.mkv -f mpeg tcp://localhost:8080?listen
+
+ffplay tcp://localhost:8080
+
+or
+
+ffmpeg -re -i sample.mkv -f mpegts udp://localhost:8080?pkt_size=188&buffer_size=65535

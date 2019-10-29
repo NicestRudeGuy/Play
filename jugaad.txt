@@ -1,0 +1,4 @@
+ffmpeg -i input.mp4 -listen 1 -f mpeg http://localhost:8080 for sending file to server
+
+
+ffmpeg -i input.mp4 -listen 1 -s 800x600 -f mpeg http://localhost:8080
